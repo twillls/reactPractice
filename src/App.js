@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import GroceryItem from './GroceryItem';
 
 function App() {
+  function handleClick(name) {
+    alert(name);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi!
+          Hello World!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+        <>
+          <GroceryItem name="Eggs" onClick={handleClick}/>
+          <GroceryItem name="Banana" onClick={handleClick} />
+          <GroceryItem name="Strawberry" onClick={handleClick} />
+          <GroceryItem name="Bread" onClick={handleClick} />
+        </>
+      </main>
     </div>
   );
 }
