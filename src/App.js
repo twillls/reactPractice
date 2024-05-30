@@ -1,3 +1,4 @@
+import HelloWorld from './HelloWorld';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,9 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Hello World!
-        </h1>
+        <HelloWorld />
       </header>
       <main>
         <h2>A Clean Starting Point!</h2>
