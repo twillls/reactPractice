@@ -1,8 +1,11 @@
 import HelloWorld from './HelloWorld';
+// import Counter from './Counter';
+import CounterTwo from './CounterVTwo';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,9 +14,9 @@ function App() {
       </header>
       <main>
         <h2>A Clean Starting Point!</h2>
+        <Counter />
+        <CounterTwo />
       </main>
     </div>
   );
 }
-
-export default App;
