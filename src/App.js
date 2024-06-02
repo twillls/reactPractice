@@ -1,6 +1,7 @@
 import HelloWorld from './HelloWorld';
 // import Counter from './Counter';
-import CounterTwo from './CounterVTwo';
+// import CounterTwo from './CounterVTwo';
+import Forecast from './Forecast';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
@@ -14,8 +15,7 @@ export default function App() {
       </header>
       <main>
         <h2>A Clean Starting Point!</h2>
-        <Counter />
-        <CounterTwo />
+        <Forecast />
       </main>
     </div>
   );
