@@ -1,6 +1,7 @@
 import HelloWorld from './HelloWorld';
 import logo from './logo.svg';
 import './App.css';
+import SocialNetwork from './SocialNetwork';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main>
         <h2>A Clean Starting Point!</h2>
+        <SocialNetwork />
       </main>
     </div>
   );
