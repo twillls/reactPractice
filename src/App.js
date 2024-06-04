@@ -22,4 +22,8 @@ function App() {
   );
 }
 
+// 1. CSS properties in JSX are written in camelCase because hyphens are interpreted as minus signs
+// 2. px is always assumed, ex. fontSize: 30 assumes 30px. To use a different unit, pass a string.
+// Ex. fontSize: "2em"
+
 export default App;
