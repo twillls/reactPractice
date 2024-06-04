@@ -3,6 +3,11 @@ import logo from './logo.svg';
 
 // Stylesheets can be imported, allowing styles to be more modular and organized
 import './App.css';
+// To prevent conflicts, CSS modules can be used with the file name format fileName.module.css
+// and imported like this: import styles from './fileName.module.css'
+// this creates a styles object that will now hold the selectors from fileName, and can be accessed
+// using dot notation, like this: className={styles.divStyle}
+// Note that className attribute is used in place of class
 
 function App() {
   const myStyle = {
