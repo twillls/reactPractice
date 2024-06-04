@@ -1,5 +1,7 @@
 import HelloWorld from './HelloWorld';
 import logo from './logo.svg';
+
+// Stylesheets can be imported, allowing styles to be more modular and organized
 import './App.css';
 
 function App() {
